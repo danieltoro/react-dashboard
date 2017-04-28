@@ -26,10 +26,19 @@ class Sidebar extends Component {
               <Link to={'/dashboard'} className="nav-link" activeClassName="active"><i className="icon-speedometer"></i> Dashboard <span className="badge badge-info">NEW</span></Link>
             </li>
             <li className="nav-item">
-              <Link to={'/products'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Products</Link>
+              <Link to={'/products'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Productos</Link>
             </li>
             <li className="nav-item">
-              <Link to={'/categories'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Categories</Link>
+              <Link to={'/categories'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Categorias</Link>
+            </li>
+            <li className="nav-item">
+              <Link to={'/families'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Familas</Link>
+            </li>
+            <li className="nav-item">
+              <Link to={'/genders'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Generos</Link>
+            </li>
+            <li className="nav-item">
+              <Link to={'/banners'} className="nav-link" activeClassName="active"><i className="icon-pie-chart"></i> Banners</Link>
             </li>
           </ul>
         </nav>
