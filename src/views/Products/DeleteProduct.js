@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
-class Products extends Component {
+class UpdateProduct extends Component {
   constructor(props) {
     super(props);
 
@@ -15,7 +15,7 @@ class Products extends Component {
           <div className="col-md-12">
             <div className="card">
               <div className="card-header">
-                <strong>Formulario de</strong> Ingreso de nuevas productos
+                <strong>Formulario de</strong> Eliminacion de productos
               </div>
               <div className="card-block">
                 <form action="" method="post" encType="multipart/form-data" className="form-horizontal">
@@ -136,4 +136,4 @@ class Products extends Component {
   }
 }
 
-export default Products;
+export default UpdateProduct;
